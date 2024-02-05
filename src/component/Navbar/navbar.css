@@ -1,0 +1,14 @@
+.myNav{
+    background-color: #2C3E50 !important;
+}
+.font32{
+    font-size: 32px;
+}
+.colorWhite{
+    color: #fff;
+}
+.navbar-nav .nav-link.active{
+    background-color: aqua !important;
+    color: white !important;
+    border-radius: 20px;
+}

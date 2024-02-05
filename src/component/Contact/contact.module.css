@@ -1,0 +1,22 @@
+.colorWhite{
+    color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    
+}
+.f42{
+    font-size: 42px;
+}
+.icon{
+    position: relative;
+}
+.icons{
+    background-color: #2C3E50;
+    width: 100px;
+    height: 5px;
+}
+.btnColor{
+    background-color: #1ABC9C !important;
+    color: white !important;
+    
+}

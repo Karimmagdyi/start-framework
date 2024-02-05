@@ -1,0 +1,47 @@
+
+.colorWhite{
+    color: #2C3E50;
+}
+.f42{
+    font-size: 42px;
+}
+.icon{
+    position: relative;
+}
+.icons{
+    background-color: #2C3E50;
+    width: 100px;
+    height: 5px;
+}
+.images{
+    position: relative;
+}
+.images:hover> .layer{
+opacity: 1;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #19ab8ed4;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainLayer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
